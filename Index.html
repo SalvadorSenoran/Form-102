@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #email{
+            width: 500px;
+        }
+        #fname{
+            width: 500px;
+        }
+        #lname{
+            width: 500px;
+        }
+        #mname{
+            width: 500px;
+        }
+        #ename{
+            width: 500px;
+            text-align: center;
+        }
+        #lrn{
+            width: 500px;
+        }
+        #address{
+            width: 500px;
+        }
+        #city{
+            width: 527px;
+        }
+        #zipcode{
+            width: 502px;
+        }
+        #parentname{
+            width: 500px;
+        }
+        #parentnumber{
+            width: 500px;
+        }
+        #parentemail{
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Application For Students Information <br> (ID Picture Taking)</h2>
+<br>
+
+    <form>
+        <label for="email"><strong><em>EMAIL ADDRESS:</em></strong></label> <br><br>
+        <input type="email" name="email" id="email" placeholder="name@example.com" autocomplete="on">
+<br><br><br>
+        <label for="fname"><strong><em>FIRST NAME:</em></strong></label> <br><br>
+        <input type="text" name="fname" id="fname" placeholder="Your answer">
+<br><br><br>
+        <label for="lname"><strong><em>LAST NAME:</em></strong></label> <br><br>
+        <input type="text" name="lname" id="lname" placeholder="Your answer">
+<br><br><br>
+        <label for="mname"><strong><em>MIDDLE NAME:</em></strong></label> <br><br>
+        <input type="text" name="mname" id="mname" placeholder="Your answer">
+<br><br><br>
+        <label for="ename"><strong><em>EXTENSION NAME:</strong></em></label> <br>
+        <select name="ename" id="ename">
+            <option value="jr.">Jr.</option>
+            <option value="sr.">Sr.</option>
+            <option value="III">III</option>
+            <option value="IV">IV</option>
+            <option value="V">V</option>
+        </select>
+<br><br><br>
+        <label for="age"><strong><em>AGE:</em></strong></label> <br><br>
+        <input type="number" name="age" id="age" min="1" max="100">
+<br><br><br>
+        <label for="sex"><strong><em>SEX:</em></strong></label> <br><br>
+        <input type="checkbox" name="male" id="male">
+        <label for="male"><em>Male</em></label> <br>
+        <input type="checkbox" name="female" id="female">
+        <label for="female"><em>Female</em></label>
+<br><br><br>
+        <label for="lrn"><strong><em>PREVIOUS LEARNER REFERENCE NUMBER (LRN):</em></strong></label> <br><br>
+        <input type="number" name="lrn" id="lrn" placeholder="Your answer">
+<br><br><br>
+        <fieldset>
+            <legend><strong><em>HOME ADRESS:</em></strong></legend>
+            <label for="address"><strong><em>Address:</em></strong></label>
+            <input type="text" name="address" id="address" placeholder="Your answer">
+            <br><br>
+            <label for="city"><strong><em>City:</em></strong></label>
+            <input type="text" name="city" id="city" placeholder="Your answer">
+            <br><br>
+            <label for="zipcode"><strong><em>Zipcode:</em></strong></label>
+            <input type="text" name="zipcode" id="zipcode" maxlength="4" placeholder="Your answer" disabled>
+        </fieldset>
+<br><br>
+    <label for="parent"><strong>PARENT/GUARDIAN'S INFORMATION</strong><br>Please ensure that all the information is correct.</label>
+<br><br>
+    <label for="parentname"><strong><em>PARENT/GUARDIAN'S FULL NAME:</em></strong></label> <br><br>
+    <input type="text" name="parentname" id="parentname" placeholder="Your answer">
+<br><br>
+    <label for="parentnumber"><strong><em>PARENT/GUARDIAN'S CONTACT NUMBER:</strong><br>Example: 0923-456-7891</em></label> <br><br>
+    <input type="number" name="parentnumber" id="parentnumber" placeholder="Your answer">
+<br><br>
+    <label for="parentemail"><strong><em>PARENT/GUARDIAN'S EMAIL ADDRESS:</em></strong></label> <br><br>
+    <input type="text" name="parentemail" id="parentemail" placeholder="Your answer">
+<br><br>
+    <label for="econtactno."><strong><em>EMERGENCY CONTACT NUMBER:</em></strong></label> <br><br>
+    <input type="number" name="econtactno." id="econtactno." placeholder="Your answer">
+<br><br>
+    <label for="comments"><strong><em>COMMENTS/FEEDBACK:</em></strong></label> <br>
+    <textarea name="comments" id="comments" rows="5" placeholder="Your answer"></textarea>
+<br><br>
+    <input type="submit"> &nbsp;
+    <input type="reset">
+    </form>
+</body>
+</html>
